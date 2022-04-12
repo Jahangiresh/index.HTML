@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: black;
+    height: 97vh;
+  margin: 0 auto;
+}
+img{
+top: 50%;
+left: 0;
+position: relative;
+   width: 150px;
+   animation-name: dvd;
+   animation-duration: 14s;
+   animation-iteration-count: infinite;
+ animation-timing-function: linear;
+
+}
+@keyframes dvd{
+    0%{
+        top: 50%;
+        left: 0%;
+        filter: hue-rotate(0deg);
+        transform: rotate(360deg);
+    }
+    10%{
+        top: 0%;
+        left: 50%;
+        filter: hue-rotate(90deg);
+        transform: rotate(-360deg);
+       
+    }   
+    20%{
+        top: 50%;
+        left: 91%;
+        filter: hue-rotate(0deg);
+    }
+    30%{
+        top: 92%;
+        left: 50%;
+       filter: hue-rotate(90deg);
+       transform: rotate(360deg);
+    }
+    40%{
+        top: 50%;
+        left: 0%;
+        filter: hue-rotate(0deg);
+        transform: rotate(-360deg);
+    }
+    50%{
+        top: 0%;
+        left: 50%;
+        filter: hue-rotate(90deg);
+    }
+    60%{
+        top: 50%;
+        left: 91%;
+       filter: hue-rotate(0deg);
+       transform: rotate(360deg);
+    }
+    70%{
+        top: 92%;
+        left: 50%;
+        filter: hue-rotate(90deg);
+        transform: rotate(-360deg);
+    }
+    80%{
+        top: 50%;
+        left: 0%;
+        filter: hue-rotate(0deg);
+    }
+
+}
