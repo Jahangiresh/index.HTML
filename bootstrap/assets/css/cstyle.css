@@ -1,0 +1,17 @@
+
+.my-btn{
+    border-radius: 30px;
+}
+.my-header{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.my-menu-btn{
+    border: 1px solid black;
+}
+.section img{
+    width: 400px;
+}
+.section i{
+    color: rgb(169, 77, 255);
+ font-size:60px;
+}
