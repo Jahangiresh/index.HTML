@@ -1,0 +1,46 @@
+
+.header{
+    height: 60px;
+    .container{
+        padding-top: 15px;
+        .my-nav{
+            .row{
+                .col-4{
+                    .nokia-logo{
+                        h3{
+                            color:#124191;
+                        }
+                    }
+                }
+               .col-5{
+                   .my-btn{
+                    color: #1D1E20;
+                    background-color: transparent;
+                    border:none;
+                    box-shadow: none;
+                   }
+            
+               }
+               .col-3{
+                display: flex;
+                justify-content: flex-end;
+                .icons{
+                    ul{
+                        display: flex;
+                        li{
+                            padding-left: 25px;
+                            font-size: 19px;
+                            span{
+                                font-size: 16px;
+                            }
+                            i{
+                                color:#124191
+                            }
+                        }
+                    }
+                }
+               }
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.header {
+  height: 60px;
+}
+
+.header .container {
+  padding-top: 15px;
+}
+
+.header .container .my-nav .row .col-4 .nokia-logo h3 {
+  color: #124191;
+}
+
+.header .container .my-nav .row .col-5 .my-btn {
+  color: #1D1E20;
+  background-color: transparent;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.header .container .my-nav .row .col-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header .container .my-nav .row .col-3 .icons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .container .my-nav .row .col-3 .icons ul li {
+  padding-left: 25px;
+  font-size: 19px;
+}
+
+.header .container .my-nav .row .col-3 .icons ul li span {
+  font-size: 16px;
+}
+
+.header .container .my-nav .row .col-3 .icons ul li i {
+  color: #124191;
+}
+/*# sourceMappingURL=style.css.map */
