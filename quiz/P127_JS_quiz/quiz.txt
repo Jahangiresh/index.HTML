@@ -1,0 +1,91 @@
+// 1
+let a = 10;
+
+if (true) {
+  let a = 20;
+}
+
+// a - ?
+
+// 2
+var b = 20;
+
+if (true) {
+  var b = 40;
+}
+
+// b - ?
+
+// 3
+const user1 = {
+  name: "Test",
+};
+
+user1.name = "Test 2";
+
+// user1.name - ?
+
+// 4
+let user2 = {
+  name: "Test",
+};
+
+user2 = {
+  surname: "Test 2",
+};
+
+// user2.name - ?
+
+// 5
+const user3 = {
+  name: "Test",
+};
+
+user3 = {
+  surname: "Test 2",
+};
+
+//user3.surname - ?
+
+// 6
+if ("10" === 10) {
+  console.log("10 is equal to 10");
+} else {
+  console.log("10 is not equal to 10");
+}
+
+// output - ?
+
+// 7
+const myFunc = () => {};
+
+// function type - ?  (normal | arrow | anonymous)
+
+// 8
+const myFunc2 = function () {};
+
+// function type - ?  (normal | arrow | anonymous)
+
+// 9
+try {
+  const anonymousVar = 10;
+
+  if (true) {
+    const anonymousVar = 20;
+
+    console.log(anonymousVar);
+  }
+} catch (e) {
+  console.log("Error");
+}
+
+// output - ?
+
+//10
+function callMe() {
+  console.log(arguments.length);
+}
+
+callMe(10, 20, 30);
+
+// output - ?
