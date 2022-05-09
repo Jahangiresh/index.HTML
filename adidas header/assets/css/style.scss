@@ -1,0 +1,641 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    .fixedheader{
+
+    .my-header{
+     
+        width: 100%;
+      background: white;
+      position: fixed;
+      z-index: 5;
+      transition: 0.3s linear;
+        .my-navbar1{
+            background: #000;
+          
+            .container{
+                
+                .my-row{
+                    .my-col-4{
+                     display: flex;
+                     justify-content: space-around;
+                     padding: 7px 0;
+                     min-width: none;
+                   
+
+                    }
+                   a{
+                   
+                    text-decoration: none;
+                     color: white;
+                     font-size: 12px;
+                     font-family: "AdihausDIN",Helvetica,Arial,sans-serif;;
+                    }
+                    a:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .my-navbar2{
+            height: 30px;
+          .my-container{
+            display: flex;
+            justify-content: end;
+            p{
+                cursor: pointer;
+                padding: 3px 10px;
+                font-size: 13px;
+            }
+          }
+        }
+        .my-navbar3{
+           //hamburger-menu
+           
+          .hamburger-menu{
+          
+            display: flex;
+            align-items: center;
+            height: 40px;
+            position: absolute;
+            font-size: 30px;
+            i{
+            
+            }
+          }
+           //hamburger-menu
+.logo-col{
+    display: flex;
+    justify-content: center;
+   padding-top: 8px;
+}
+        height: 40px;
+          display: flex;
+          justify-content: space-between;
+   .my-logo{
+    width: 60px;
+    height: 60px;
+    top: -17px;
+    position: relative;
+    cursor: pointer;
+       img{
+          width: 100%;
+       }
+   }
+      
+            .my-categories{
+               
+                a{
+                   
+                    position: relative;
+                    letter-spacing: 1.87px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    -webkit-font-smoothing: antialiased;
+                    font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 45px;
+                    margin: 0 3px;
+                    color: #000;
+                    
+                }
+                a:hover{
+                    text-decoration: underline;
+                }
+            }
+            .my-search{
+                display: flex;
+             
+                .my-icons{
+                    cursor: pointer;
+                  #bag:hover{
+                      .bagdiv{
+                          opacity: 0;
+                      }
+                  }
+                    letter-spacing: 2.87px;
+                    margin-left: 50px;
+                    font-size: 22px;
+                    .bagdiv{
+                        background: white;
+                        position: absolute;
+                        width: 299px;
+                        height: 60px;
+                        right: 6.5%;
+                        border-top: 1px solid gray;
+                        top: 100%;
+                        box-sizing: border-box;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                       
+                opacity: 0;
+                        h4{
+                            font-size: 19px;
+                        }
+                    }
+                       
+                    
+                }
+
+                .my-input-search{
+                    width: 200px;
+                    // display: flex;
+                    // justify-content: flex-end;
+                    input{
+                        outline: none;
+                        background: whitesmoke;
+                        border:none;
+                        padding: 5px;
+                        width: 150px;              
+                    }
+                    input:hover{
+                        border: 1px solid black;
+                    }
+                    i{
+                        
+                        position: absolute;
+                       cursor: pointer;
+                        padding: 5px;
+                        
+                        
+                    }
+                }
+            }
+        }
+    }
+        .my-cover{
+          
+          
+            width: 100%;
+            display: flex;
+            align-items: center;
+            .hovermen{
+               margin-top: 100px;
+                opacity: 0;
+                width: 100%;
+                height: 500px;
+           background: white;
+                position:absolute;
+                z-index: 4;
+                border: 1px solid black;
+
+                .row{
+                    .mycol-border{
+                        border: 1px solid black;
+                    }
+                    .my-col-4{
+                   border-bottom: 1px solid black;
+                    display: flex;
+                    justify-content: center;
+                   .texdiv{
+                   margin-top: 50px;
+                     
+                     width: 200px;
+                     .buydiv{
+                      margin-left: 25px;
+                         background: green;
+                         width: 130px;
+                         height: 58px;
+                         border: 5px solid gray;
+                         text-align: center;
+            
+                         p{
+                             color: yellow;
+                             font-size: 15px;
+                             text-align: center;
+                             
+                         }
+                     }
+                     ul{
+                         padding-top: 20px;
+                         li{
+                             list-style: none;
+                             display: flex;
+                             justify-content: start;
+                             font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+                             font-size: 12px;
+                             padding-top: 6px;
+                             a{
+                                 text-decoration: none;
+                                 color: #000;
+                             }
+                             a:hover{
+                                 text-decoration: underline;
+                             }
+                         }
+                     }
+                       span{
+                        letter-spacing: 1.87px;                   
+                        text-transform: uppercase;
+                        font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+                        font-weight: 600;
+                        font-size: 12px;
+                        padding-left: 32px;
+                        
+                          }
+                    
+                        }
+                 
+                    }
+                }
+            }
+         
+           
+            img{
+           width: 100%; 
+           object-fit: contain;
+           
+            }
+            .slogans{
+                width: 400px;
+          position: absolute;
+          padding: 20px;
+          color: white;
+          button{
+              padding: 13px;
+         transition: 0.3s linear;
+            box-shadow: 2px 2px 0 0 white;
+          }
+          button:hover{
+              color: gray;
+          }
+            }
+        }
+    }
+    .main{
+        .my-title{
+            display: flex;
+            justify-content: center ;
+            margin-top: 60px;
+            
+            span{
+                font-family: "AdihausDIN Cn",Helvetica, Arial, ;
+                letter-spacing: -0.09em;
+                font-weight:600;
+                font-size: 32px;
+                
+            }
+           
+        }
+        .my-buttons{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 30px;
+            button{
+                background: white;
+                padding: 10px;
+                border: 1px solid rgb(174, 174, 174);
+            }
+            button:hover{
+                border: 1px solid black;
+            }
+        }
+        .myimg-row{
+display: flex;
+justify-content: space-around;
+            .my-imgcol{
+                margin-top: 70px;
+     background: #edeef0;
+    height: 230px;
+  display: flex;
+  justify-content: center;
+width: 310px;
+                img{
+            margin-bottom: 10%;
+         
+                }
+                a{
+                    position: absolute;
+                    color: #000;
+                    font-weight: 660;
+                    font-size: 14px;
+                    margin-top: 200px;
+                    letter-spacing: 0.1rem;
+                }
+                a:hover{
+                    color: white;
+                    background: #000;
+                }
+            }
+        }
+        .my-main-header{
+          
+            margin-top: 100px;
+            border-top: 1px solid rgb(196, 195, 195);
+            border-bottom: 1px solid rgb(196, 195, 195);
+          height: 70px;
+      
+           .my-col-6{
+            display: flex;
+            align-items: center;
+              
+               height: 70px;
+               gap: 20px;
+              
+            .arrivals{
+                height: 70px;
+padding:0 30px;
+display: flex;
+align-items: center;   
+ cursor: pointer;
+ border-bottom: 4px solid black;
+ font-weight: 700;
+            }
+            // .arrivals:hover{
+            //     border-bottom: 4px solid black;
+            // }
+            .trendings{
+                height: 70px;
+                padding:0 30px;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+            }
+            .trendings:hover{
+                border-bottom: 4px solid black;
+            }
+           }
+            .viewall{
+                height: 70px;
+                padding:0 30px;
+                display: flex;
+             
+                align-items: center;
+                justify-content: end;
+              a{
+                  color: black;
+                  font-weight: 700;
+              }
+            }
+          
+                a:hover{
+                    color: white;
+                    background: black;
+                }
+            
+        }
+        #imageboxTREND{  
+            margin-top: -420px;
+           
+            margin-left: 100%;
+            overflow-x: hidden;
+          
+          
+        }
+        .imagebox2{
+            .row{
+                margin-top: 20px;
+                .my-imgcol2{
+                    display: flex;
+                    justify-content: space-around;
+                    .card:hover{
+                        border: 1px solid black;
+                        .imagecard{
+                            .pricediv{
+                                bottom: 10px;
+                            }
+                        }
+                    }
+                    .card{
+                        width: 278px;
+                        height: 400px;
+                        border: none;
+                        .imagecard{
+                            position: relative;
+                            .pricediv{
+                                position: absolute;
+                                background: white;
+                                bottom: 0px;
+                                left: 5px;
+                                transition: 0.1s linear;
+                            }
+                        
+                        }
+                       .titlecard{
+                           margin-top: 10px;
+                        font-family: "AdihausDIN",Helvetica,Arial,sans-serif;
+                        font-style: normal;
+                        font-weight: normal;
+                        line-height: 10px;
+                        font-size: 12px;
+                       p{
+                           font-size: 14px;
+                       }
+                        .p{
+                            color: #767677;
+                            // font-size: 12px;
+                        }
+                       }
+                    }
+
+                }
+            }
+        }
+        .imageboxLast{
+            
+      margin-top: -1000px;
+            .my-row{
+                
+             
+                .my-column{
+                  
+                    .my-card{
+              
+                      height: 560px;
+                        .imagecardLast{
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        .titlecardLast{
+                            font-family: "AdihausDIN",Helvetica,Arial,sans-serif;
+                            font-size: 16px;
+                            margin-top:10px;
+                            p{
+                                margin-top: 10px;
+                            }
+                            span{
+                                a{
+                                    color: black;
+                                    font-weight: 600;
+                                }
+                                a:hover{
+                                    background: #000;
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+        .texdiv2{
+            background: whitesmoke;
+            .my-text-row{
+    
+                .my-text-col{
+                    font-family: "AdihausDIN",Helvetica,Arial,sans-serif;
+                  padding: 100px 0 100px 150px;
+                  
+                 
+                   h2{
+                       font-size: 12px;
+                       letter-spacing: 2px;
+                       text-transform: uppercase;
+                       font-weight: 700;
+                   }
+                   p{
+                       margin-top: 30px;
+                    font-size: 12px;
+                    letter-spacing: 2px;
+                  
+                   }
+                }
+                .mycol2{
+                    padding: 100px 150px 100px 30px
+                  }
+            }
+        }
+        .yellowdiv{
+            background: yellow;
+            height: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+           .col-6{
+            h4{
+                font-family: "AdineuePRO",Helvetica,Arial,sans-serif;
+                font-style: normal;
+                font-weight: 700;
+               font-size: 30px;
+                text-transform: uppercase;
+            }
+           
+           }
+           .col-6{
+            button{
+                padding: 13px;
+                transition: 0.3s linear;
+                background: black;
+                color: white;
+                   box-shadow: 4px 4px 0 0 rgb(42, 41, 41);
+
+                   font-family: "AdineuePRO",Helvetica,Arial,sans-serif;
+                font-style: normal;
+                font-weight: 700;
+               
+                text-transform: uppercase;
+            }
+            button:hover{
+                color: #767677;
+            }
+           }
+        }
+        .footer1{
+            .row{
+                display: flex;
+                justify-content: space-around;
+                margin-top: 60px;
+                .col-2{
+                    ul{
+                        padding-top: 20px;
+                        li{
+                            list-style: none;
+                            display: flex;
+                            justify-content: start;
+                            font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+                            font-size: 13px;
+                            padding-top: 6px;
+                            a{
+                                text-decoration: none;
+                                color: #000;
+                            }
+                            a:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                      span{
+                       letter-spacing: 1.87px;                   
+                       text-transform: uppercase;
+                       font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+                       font-weight: 600;
+                       font-size: 14px;
+                       padding-left: 32px;
+                       
+                         }
+                }
+            }
+        }
+        .my-footer{
+            background: rgb(43, 43, 43);
+            height: 160px;
+           .container{
+               .footcol{
+                   margin-top: 20px;
+                   .footrow{
+                    letter-spacing: 1.87px;                   
+                    font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+                    font-size: 12px;
+                    color: gray;
+                   .bordcol{
+                    border-right: 1px solid gray;
+                   }
+                
+               }
+           }
+                .row{
+                   
+                    .col-4{
+                        .usa{
+                           
+                    height: 160px;
+                    margin-top: 20px;
+                    padding-left: 45px;
+                    .usaimg{
+                        width: 20px;
+                        height: 10px;
+                     
+                        position: absolute;
+                       
+
+                        img{
+                            width: 100%;
+                            margin-left: 7px;
+                          
+                        }
+                    }
+                            span{
+                              
+                                letter-spacing: 1.87px;                   
+                                font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+                                font-size: 11px;
+                               margin-left: 30px;
+                                color: gray;
+                                
+                          
+                              
+                            }
+                            p{
+                                margin-top: 70px;
+                                letter-spacing: 1.87px;                   
+                                font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+                                font-size: 12px;
+                                color: gray;
+                            }
+                        }
+                    }
+                }
+               
+            }
+        }
+
+    }
+}
